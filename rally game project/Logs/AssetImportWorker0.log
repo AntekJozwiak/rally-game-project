@@ -15,11 +15,11 @@ D:/rally-game-project/rally game project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58775
+51200
 Successfully changed project path to: D:/rally-game-project/rally game project
 D:/rally-game-project/rally game project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 66.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 76.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.18f1 (25bdc3efbc2d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,43 +35,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.002154 seconds.
+Registered in 0.002632 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 68.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.110 seconds
+- Completed reload, in  1.199 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1110ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (1200ms)
+		BeginReloadAssembly (58ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (382ms)
-			LoadAssemblies (51ms)
+		EndReloadAssembly (389ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (137ms)
+			SetupTypeCache (138ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (182ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (187ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (69ms)
+				RefreshPlugins (74ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadAttributes (80ms)
 				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -79,7 +79,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003018 seconds.
+Registered in 0.002978 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\rally-game-project\rally game project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\rally-game-project\rally game project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -87,48 +87,48 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.062 seconds
+- Completed reload, in  0.981 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1062ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (982ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (878ms)
-			LoadAssemblies (112ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (793ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (304ms)
+			SetupTypeCache (280ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (339ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (319ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (263ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (246ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2949 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 117.6 MB.
-System memory in use after: 117.8 MB.
+Unloading 2964 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.3 MB.
+System memory in use after: 123.3 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3407.
-Total: 3.633000 ms (FindLiveObjects: 0.320900 ms CreateObjectMapping: 0.081100 ms MarkObjects: 3.157900 ms  DeleteObjects: 0.071900 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3432.
+Total: 3.327200 ms (FindLiveObjects: 0.296000 ms CreateObjectMapping: 0.083900 ms MarkObjects: 2.754100 ms  DeleteObjects: 0.192400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -142,25 +142,505 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(5ae4b4f9699dba143be9c4a25fba8707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(5ae4b4f9699dba143be9c4a25fba8707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b24c58deb55dfcb142733e7f3f4d1ec') in 0.033319 seconds 
+  path: Assets/RCK 2.3/Models/Vahicles/OldCar/Materials/InSide.mat
+  artifactKey: Guid(318951b3d8d3b9d4d9e64bd3fe1c7004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Vahicles/OldCar/Materials/InSide.mat using Guid(318951b3d8d3b9d4d9e64bd3fe1c7004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a32b673bcddcea0c5004c49da9478e8') in 0.096447 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.638589 seconds.
-  path: Assets/TerrainData_2b7c3c0c-4239-45d1-845b-0a4c7ded4e79.asset
-  artifactKey: Guid(a7c5d46945c53a9409620bab28cf78fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_2b7c3c0c-4239-45d1-845b-0a4c7ded4e79.asset using Guid(a7c5d46945c53a9409620bab28cf78fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b54573cfefcccc62e5d4657a1981ba') in 0.012414 seconds 
+  Time since last request: 0.000156 seconds.
+  path: Assets/RCK 2.3/Models/Vahicles/PoliceCar/Materials/body (2).mat
+  artifactKey: Guid(1838cf1977d71744f88f997844538f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Vahicles/PoliceCar/Materials/body (2).mat using Guid(1838cf1977d71744f88f997844538f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e761ecf67b7502269c7a92e8f1262b') in 0.040898 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.658358 seconds.
-  path: Assets/TerrainData_3d2d40b9-91ee-45cb-bf4a-32d05a8b01b3.asset
-  artifactKey: Guid(969ca004bc2f4f649a6bb1ffe7f2d930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_3d2d40b9-91ee-45cb-bf4a-32d05a8b01b3.asset using Guid(969ca004bc2f4f649a6bb1ffe7f2d930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbdda9da8e723e5b269639ef3658743') in 0.009953 seconds 
+  Time since last request: 0.000162 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Windows.mat
+  artifactKey: Guid(2e2f85c2d31ee15459da8b5872f104f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Windows.mat using Guid(2e2f85c2d31ee15459da8b5872f104f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c05135eba965e941195f748dbd7e99') in 0.032443 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.512427 seconds.
-  path: Assets/TerrainData_e8869a25-5ad6-4c01-9d20-55949e996a05.asset
-  artifactKey: Guid(0cb7de197be0c2646beaf41047d75e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_e8869a25-5ad6-4c01-9d20-55949e996a05.asset using Guid(0cb7de197be0c2646beaf41047d75e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c17cda3419970208fd32772b128b368') in 0.015391 seconds 
+  Time since last request: 0.000142 seconds.
+  path: Assets/RCK 2.3/Standard Assets/Terrain Assets/Trees Ambient-Occlusion/Palm/Materials/palmbark.mat
+  artifactKey: Guid(e5bdb6135a74b444d8cebd065dbf9d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Standard Assets/Terrain Assets/Trees Ambient-Occlusion/Palm/Materials/palmbark.mat using Guid(e5bdb6135a74b444d8cebd065dbf9d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e9a111548e28db85d76a9d97506fe1') in 0.012417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Azerilo/Car Model No.1201 Asset/Mesh/Materials/lambert18.mat
+  artifactKey: Guid(9548a0c31580f2841adc8b671fa21406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/Car Model No.1201 Asset/Mesh/Materials/lambert18.mat using Guid(9548a0c31580f2841adc8b671fa21406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4c5953de9d213436c5bf4dea4b0677') in 0.022436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/RCK 2.3/Models/Tree/Materials/AlderBranches.mat
+  artifactKey: Guid(03d3dd49b23901e4a94fd7ecdee4e030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Tree/Materials/AlderBranches.mat using Guid(03d3dd49b23901e4a94fd7ecdee4e030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6da65e8e501253b92a4cf8caa9b4a8') in 0.010838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/RCK 2.3/Models/Vahicles/RallyCar/Materials/Inside.mat
+  artifactKey: Guid(e0b562b8d40461d48a3fe07aed5dd955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Vahicles/RallyCar/Materials/Inside.mat using Guid(e0b562b8d40461d48a3fe07aed5dd955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619e68e0fac70ab468cfd094cfd0c547') in 0.011316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/RCK 2.3/Models/Tree/Materials/AlderMoss.mat
+  artifactKey: Guid(ebbda347635f8054b9ae14ed10a496c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Tree/Materials/AlderMoss.mat using Guid(ebbda347635f8054b9ae14ed10a496c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a49fd55d522cee33ab5c971467195f') in 0.011412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/STYLIZED - FREE Drift Car/Other/Plane.mat
+  artifactKey: Guid(c6e08c415e470bc428a4be02a1f28667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STYLIZED - FREE Drift Car/Other/Plane.mat using Guid(c6e08c415e470bc428a4be02a1f28667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06b939183f05f795925dc1e4853cbab') in 0.018058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/RCK 2.3/Models/Vahicles/RallyCar/Materials/Glass.mat
+  artifactKey: Guid(a432ad8fefba51643b7c63abf9351b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Vahicles/RallyCar/Materials/Glass.mat using Guid(a432ad8fefba51643b7c63abf9351b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b6ad58bcbce1c5c40d052e94eef954') in 0.018254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/RCK 2.3/Models/Vahicles/OldCar/Materials/Body.mat
+  artifactKey: Guid(abaaf19cb76081d4c9f5761fdfb00858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Vahicles/OldCar/Materials/Body.mat using Guid(abaaf19cb76081d4c9f5761fdfb00858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3430e54e677d9085fe6d292964e1ab13') in 0.016503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Windows_Unlit.mat
+  artifactKey: Guid(5179a11c362457440a208aa2e368e795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Windows_Unlit.mat using Guid(5179a11c362457440a208aa2e368e795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47cfb70a5a59081bfe8b3f4b0aeda95d') in 0.051926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/RCK 2.3/Models/Vahicles/PoliceCar/Materials/glass.mat
+  artifactKey: Guid(ce5b83418f3c88d4fa6c6b5ab9b17cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Vahicles/PoliceCar/Materials/glass.mat using Guid(ce5b83418f3c88d4fa6c6b5ab9b17cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96b749d39d236942fbc76d814a82b84') in 0.011401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Lamps_Unlit.mat
+  artifactKey: Guid(12eb27b38f3739e4c8ee871ef0b177b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Lamps_Unlit.mat using Guid(12eb27b38f3739e4c8ee871ef0b177b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e5ca32e24a487b7a4eefd8ed351d77') in 0.017594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Green.mat
+  artifactKey: Guid(7035d7f8757dc2946904e38b831bf42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Green.mat using Guid(7035d7f8757dc2946904e38b831bf42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8641a3e39f0e1537404d6b25587aefd') in 0.022103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/STYLIZED - FREE Drift Car/Materials/Rear_Lights_Material.mat
+  artifactKey: Guid(4a98cfae850de544680dc222604c30a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STYLIZED - FREE Drift Car/Materials/Rear_Lights_Material.mat using Guid(4a98cfae850de544680dc222604c30a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4ab049e9366d4d867a460801f0b8fa') in 0.011976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Azerilo/Demo Assets/GroundMaterial.mat
+  artifactKey: Guid(595dd5aee4a95634385fd1fbf7216b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/Demo Assets/GroundMaterial.mat using Guid(595dd5aee4a95634385fd1fbf7216b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f44e63ceaf15f53e4574c0185f8a5e6') in 0.023238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/RCK 2.3/Models/Vahicles/RallyCar/Materials/Ref.mat
+  artifactKey: Guid(9049ea6618ff8804381987a457700fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Vahicles/RallyCar/Materials/Ref.mat using Guid(9049ea6618ff8804381987a457700fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f483f9a6f23b01accc1872ee4f4bc8') in 0.010573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/road.mat
+  artifactKey: Guid(bc5af52b5ad16ea45b5dab458ce6d4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/road.mat using Guid(bc5af52b5ad16ea45b5dab458ce6d4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8437681c07590a2ed5fdaccbc67aa0d') in 0.015141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/rock.mat
+  artifactKey: Guid(a60f2e7b2b5dd834e9a746ed245d069e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/rock.mat using Guid(a60f2e7b2b5dd834e9a746ed245d069e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74752f9524994ef172b06fb86c81f6e') in 0.010950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Silver_Unlit.mat
+  artifactKey: Guid(a02bfad305321a7468f8194a49e7125f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Silver_Unlit.mat using Guid(a02bfad305321a7468f8194a49e7125f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa05309a0ab6dbc9c8053161525dbad4') in 0.017272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Yellow.mat
+  artifactKey: Guid(4add69fc6d74a5946ae4c9a81ed429ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Yellow.mat using Guid(4add69fc6d74a5946ae4c9a81ed429ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154278daf66f0bdd1f3d938b537c936d') in 0.013145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Azerilo/Car Model No.1201 Asset/Mesh/Materials/glass1.mat
+  artifactKey: Guid(2f8deaab3387f9345ad2743e7c25de13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/Car Model No.1201 Asset/Mesh/Materials/glass1.mat using Guid(2f8deaab3387f9345ad2743e7c25de13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a3e9160b65ab55d29e638eec47360e') in 0.059429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Azerilo/Car Model No.1201 Asset/Mesh/Materials/atlas.mat
+  artifactKey: Guid(cd72e7e23411c104d9c529ec92b2b719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/Car Model No.1201 Asset/Mesh/Materials/atlas.mat using Guid(cd72e7e23411c104d9c529ec92b2b719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72599e5b25604523e0350e7f07ec655') in 0.021098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Azerilo/Car Model No.1201 Asset/Mesh/Materials/blinn18.mat
+  artifactKey: Guid(23a2aece7733d8e49beae89f5acee558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/Car Model No.1201 Asset/Mesh/Materials/blinn18.mat using Guid(23a2aece7733d8e49beae89f5acee558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1b5bd87243a9fbbabc3134f42267f8') in 0.010326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Rubber.mat
+  artifactKey: Guid(6d2772f3b3b6e97469d2b0a9b385ff1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Rubber.mat using Guid(6d2772f3b3b6e97469d2b0a9b385ff1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ab560f481d6462a95c87836c6704e3') in 0.012012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/RCK 2.3/Models/Vahicles/RallyCar/Materials/Default Materia.mat
+  artifactKey: Guid(d2a851f8781a087408feb25e1c42bd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Vahicles/RallyCar/Materials/Default Materia.mat using Guid(d2a851f8781a087408feb25e1c42bd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0959fa531eef05899ff709affee861f7') in 0.010037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Silver.mat
+  artifactKey: Guid(2a6c8fdceeee488418663a46854ab545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Silver.mat using Guid(2a6c8fdceeee488418663a46854ab545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfaaa95e3f52bea08942295136b8ee4') in 0.011460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Green_Unlit.mat
+  artifactKey: Guid(f53167daf8f01e34c963df78be8509fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Green_Unlit.mat using Guid(f53167daf8f01e34c963df78be8509fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e201fe2569c0a54e9b90f0b90b52b2') in 0.011872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/Sand.mat
+  artifactKey: Guid(cb2e75aa1bf35ab4dbb9e063eed6be6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/Sand.mat using Guid(cb2e75aa1bf35ab4dbb9e063eed6be6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c637b2c284d670e87e164db356326e2b') in 0.011498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/RCK 2.3/Models/Vahicles/OldCar/Materials/Reflaction.mat
+  artifactKey: Guid(8ea9b5aac7331714082e74f0ca4c67cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Vahicles/OldCar/Materials/Reflaction.mat using Guid(8ea9b5aac7331714082e74f0ca4c67cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6d715a4c3eec43af3e46fc6f4f3f6c') in 0.016207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Azerilo/Car Model No.1201 Asset/Mesh/Materials/blinn16.mat
+  artifactKey: Guid(49c69dfd5fde5544aa3c5e4f46b14925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/Car Model No.1201 Asset/Mesh/Materials/blinn16.mat using Guid(49c69dfd5fde5544aa3c5e4f46b14925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c0994f1e127f2ae218ffefc26e821a') in 0.018097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/bluegreen.mat
+  artifactKey: Guid(2f741ca76d5d14241b47bc6e8c2a42c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/bluegreen.mat using Guid(2f741ca76d5d14241b47bc6e8c2a42c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86267bc4a13b9ea82f2e0c62c7ded249') in 0.011612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Lamps.mat
+  artifactKey: Guid(98f7409cb2311754790226154951b58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Lamps.mat using Guid(98f7409cb2311754790226154951b58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65496a8e044f983d4710956fd5c512e3') in 0.010691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/RCK 2.3/Models/Vahicles/OldCar/Materials/Glasses.mat
+  artifactKey: Guid(4b96bbf2719aef2418aa634a5d817cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Vahicles/OldCar/Materials/Glasses.mat using Guid(4b96bbf2719aef2418aa634a5d817cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422e7511fac4c5b5eba17fcef4eab091') in 0.053654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/STYLIZED - FREE Drift Car/Materials/Cars_Material.mat
+  artifactKey: Guid(b8ff3dbf2d1811b488591cfb25be7ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STYLIZED - FREE Drift Car/Materials/Cars_Material.mat using Guid(b8ff3dbf2d1811b488591cfb25be7ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8807d84e13c6912533a7009c06a39efb') in 0.011260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Azerilo/Car Model No.1201 Asset/Mesh/Materials/blinn17.mat
+  artifactKey: Guid(b82da7b737aae9042836619304e92905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/Car Model No.1201 Asset/Mesh/Materials/blinn17.mat using Guid(b82da7b737aae9042836619304e92905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7452b1672664e96a9ba8be5d38a90c') in 0.024899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/RCK 2.3/Standard Assets/Projectors/Sources/Materials/Light Material.mat
+  artifactKey: Guid(a9cdb98423c19412bbac43b1fb623c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Standard Assets/Projectors/Sources/Materials/Light Material.mat using Guid(a9cdb98423c19412bbac43b1fb623c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87df776a2d3298a9f18b1d322d3705a') in 0.019910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/RCK 2.3/Models/Vahicles/RallyCar/Materials/BottomCar.mat
+  artifactKey: Guid(a059bc4fd2fee454ab9145e71e03deca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Vahicles/RallyCar/Materials/BottomCar.mat using Guid(a059bc4fd2fee454ab9145e71e03deca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9facb934ab650386fd90278c87ecd482') in 0.010658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/RCK 2.3/Skidmarks/Skidmarks Essentials/Skidmarks Material.mat
+  artifactKey: Guid(231b39497f623924bbee554817a8fa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Skidmarks/Skidmarks Essentials/Skidmarks Material.mat using Guid(231b39497f623924bbee554817a8fa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c1b1bb6e7a74e8548988e04051bde0') in 0.011374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/RCK 2.3/Models/Vahicles/RallyCar/Materials/Body.mat
+  artifactKey: Guid(7e9298a8990f4c843b6ed9b1070b2f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Vahicles/RallyCar/Materials/Body.mat using Guid(7e9298a8990f4c843b6ed9b1070b2f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25119b484c01723083f6a2ca9818d0c') in 0.019508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Blue.mat
+  artifactKey: Guid(fc6f26659e5567247a111d9247465c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Blue.mat using Guid(fc6f26659e5567247a111d9247465c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b11aefcebc72ce8674ac4f75823264') in 0.010245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Purple.mat
+  artifactKey: Guid(fcf59a39d922f5b408fb9de922c1ee34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Purple.mat using Guid(fcf59a39d922f5b408fb9de922c1ee34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676b341034083a22f47209353fa46a62') in 0.014467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Purple_Unlit.mat
+  artifactKey: Guid(b80ac39bd6871754f9b6885ff48eca51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Purple_Unlit.mat using Guid(b80ac39bd6871754f9b6885ff48eca51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766015d9b6fa5eb1fc9d912e07af9896') in 0.010175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/RCK 2.3/Standard Assets/Light Flares/Sources/Materials/flare mat.mat
+  artifactKey: Guid(a6dbb96b9d112024d000e929e39e7c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Standard Assets/Light Flares/Sources/Materials/flare mat.mat using Guid(a6dbb96b9d112024d000e929e39e7c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36712031ab12059228decbcbe8dc7c4') in 0.035234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/RCK 2.3/Skidmarks/Skidmarks Essentials/Skidmarks Material 1.mat
+  artifactKey: Guid(c06aabeea45e26141a9e6f4c35c8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Skidmarks/Skidmarks Essentials/Skidmarks Material 1.mat using Guid(c06aabeea45e26141a9e6f4c35c8f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e619f6cb1e02163bd2f5dcddf2cebe86') in 0.016957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/RCK 2.3/Models/Vahicles/OldCar/Materials/Steer1.mat
+  artifactKey: Guid(c00aab976dee20e45876f7d9b9cc6d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Vahicles/OldCar/Materials/Steer1.mat using Guid(c00aab976dee20e45876f7d9b9cc6d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae38fb5e645647c5fe26001701b0837') in 0.059985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/RCK 2.3/Models/Street/Materials/Tex-3.mat
+  artifactKey: Guid(05ebdc62058ed0f4db7d04022793abb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Street/Materials/Tex-3.mat using Guid(05ebdc62058ed0f4db7d04022793abb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0132c6be8dc873bdfe4aa44dfd1594') in 0.018501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/RCK 2.3/Models/Street/Materials/Tex-2.mat
+  artifactKey: Guid(4288d0aabed8a2a469392ac77365cd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Street/Materials/Tex-2.mat using Guid(4288d0aabed8a2a469392ac77365cd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a15cdc871a49af1fdd3c72c6f15a5f') in 0.018580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/RCK 2.3/Standard Assets/Skyboxes/Sunny2 Skybox.mat
+  artifactKey: Guid(da976b1a4f7ebb949b0f71341e4f1821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Standard Assets/Skyboxes/Sunny2 Skybox.mat using Guid(da976b1a4f7ebb949b0f71341e4f1821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818cb5b53c2c23db51168a8a10d704ff') in 0.155037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/RCK 2.3/Models/Street/Materials/Tex-1.mat
+  artifactKey: Guid(c4ba64dc0145e4b4d851743c0abbfd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Street/Materials/Tex-1.mat using Guid(c4ba64dc0145e4b4d851743c0abbfd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6c0dbb6c95d2be03d93e3205d99c30') in 0.015782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/RCK 2.3/Models/Street/Textures/Grass/TerrainMat.mat
+  artifactKey: Guid(3e49f1cab4f99144982ce855b4e57c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Street/Textures/Grass/TerrainMat.mat using Guid(3e49f1cab4f99144982ce855b4e57c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7fa7f18bad3e5a81a70d9e66e7d9ec') in 0.186735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/RCK 2.3/Models/Street/Materials/Tex-7.mat
+  artifactKey: Guid(17b37e1facb803346a3fdac17fc377b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Street/Materials/Tex-7.mat using Guid(17b37e1facb803346a3fdac17fc377b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214d0f4520e8f11a5f43961ca72e7e68') in 0.190065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/wood.mat
+  artifactKey: Guid(4bc462b665aa4b04fac0cadf86f4eb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/wood.mat using Guid(4bc462b665aa4b04fac0cadf86f4eb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfeec629e5a1ade5340b57a88578734') in 0.010766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/wire.mat
+  artifactKey: Guid(dcf6ff65abb46fd44b9b46a4ea2769c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/wire.mat using Guid(dcf6ff65abb46fd44b9b46a4ea2769c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7715de18d2734cb03bda6cf131e57108') in 0.013801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/RCK 2.3/Models/Vahicles/RallyCar/Materials/Wheel.mat
+  artifactKey: Guid(2402e409b4791fe4ea856dfbed09d7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Vahicles/RallyCar/Materials/Wheel.mat using Guid(2402e409b4791fe4ea856dfbed09d7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127d313c989b43bc73763eb84d31aebe') in 0.009968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Azerilo/Car Model No.1201 Asset/Mesh/Materials/tireTexture.mat
+  artifactKey: Guid(26b6147b9dbe34b42bf937f88115f52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/Car Model No.1201 Asset/Mesh/Materials/tireTexture.mat using Guid(26b6147b9dbe34b42bf937f88115f52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3b02ccc1879bd2348ab46438ba6108') in 0.015652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/RCK 2.3/Models/Vahicles/OldCar/Materials/Wheel.mat
+  artifactKey: Guid(b076d5e795b76fb4fabc2fa8eb63af9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Vahicles/OldCar/Materials/Wheel.mat using Guid(b076d5e795b76fb4fabc2fa8eb63af9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff04c0e3f3d838543150604ecb3b940a') in 0.012554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/RCK 2.3/Models/Street/Materials/Tex-8.mat
+  artifactKey: Guid(4bf546fa3f0c95541a938c72f85cb194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Street/Materials/Tex-8.mat using Guid(4bf546fa3f0c95541a938c72f85cb194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763e774a8dc980c63b937c3d8201c552') in 0.014672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/yellowgreen.mat
+  artifactKey: Guid(c86769698a3d6814d9e5a560c5c20e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/yellowgreen.mat using Guid(c86769698a3d6814d9e5a560c5c20e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343fa0e4103888537e7a9c5bd7af61da') in 0.009977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/RCK 2.3/Models/Vahicles/OldCar/Materials/Tire.mat
+  artifactKey: Guid(b9cb6a19942cd2e40aadf823d3f591c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Vahicles/OldCar/Materials/Tire.mat using Guid(b9cb6a19942cd2e40aadf823d3f591c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0206848ec4e86b56a9ed20f1435b3af') in 0.013071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/RCK 2.3/Models/Street/Materials/Tex-6.mat
+  artifactKey: Guid(cb7819bc31591854fbb65a1a6ef7f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Street/Materials/Tex-6.mat using Guid(cb7819bc31591854fbb65a1a6ef7f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f939d76f0ba0d8966d2f5d18f18a6b1') in 0.027023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/RCK 2.3/Standard Assets/Projectors/Sources/Materials/Shadow Material.mat
+  artifactKey: Guid(78c0a732ad112a541100162a44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Standard Assets/Projectors/Sources/Materials/Shadow Material.mat using Guid(78c0a732ad112a541100162a44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b500026869788666f36b9b7cb8ffaa') in 0.011348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/RCK 2.3/Models/Street/Materials/Tex-4.mat
+  artifactKey: Guid(4aa5d003c65cb9b449d3755ec692a7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Street/Materials/Tex-4.mat using Guid(4aa5d003c65cb9b449d3755ec692a7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985e8ae45ff9266720fbb82bc4460259') in 0.017466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/STYLIZED - FREE Drift Car/Materials/Front_Lights_Material.mat
+  artifactKey: Guid(8db262d26fcf2a94e88c9c276f6de722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STYLIZED - FREE Drift Car/Materials/Front_Lights_Material.mat using Guid(8db262d26fcf2a94e88c9c276f6de722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b6e1e4e701bf1af2a35a7f1597df86') in 0.010321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/RCK 2.3/GUIs/Other/Materials/grid 2.mat
+  artifactKey: Guid(72dc73adc460f4940925abcd0b080ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/GUIs/Other/Materials/grid 2.mat using Guid(72dc73adc460f4940925abcd0b080ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9314d783df281c504b9a31e1c08d62') in 0.016957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Red_Unlit.mat
+  artifactKey: Guid(7e2e5ea8973ba124c90c2d39988f40a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Red_Unlit.mat using Guid(7e2e5ea8973ba124c90c2d39988f40a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e5fe97c19b4bf45044ff4331cc974d') in 0.023832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/RCK 2.3/Models/Vahicles/OldCar/Materials/Steer2.mat
+  artifactKey: Guid(9be1cf2a84b2fd24aa9bedc540d87d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Vahicles/OldCar/Materials/Steer2.mat using Guid(9be1cf2a84b2fd24aa9bedc540d87d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180a9d2b65aa1bd32ced7799e3183bb7') in 0.016276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Rubber_Unlit.mat
+  artifactKey: Guid(4810b56cdf36d5b428c7999d26387dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Rubber_Unlit.mat using Guid(4810b56cdf36d5b428c7999d26387dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3c358d4724a0c3d53de9dd562fa363') in 0.010747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/RCK 2.3/Standard Assets/Projectors/Sources/Materials/Grid Material.mat
+  artifactKey: Guid(52a1cf6eec0cc4f64bd6dfc9a3e8fe14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Standard Assets/Projectors/Sources/Materials/Grid Material.mat using Guid(52a1cf6eec0cc4f64bd6dfc9a3e8fe14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbf429402b60f3554d2dbfc13bf6753') in 0.010004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/roadalt.mat
+  artifactKey: Guid(2afdb63b43302a8498b4e6c3f80d52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/roadalt.mat using Guid(2afdb63b43302a8498b4e6c3f80d52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90d6c377e8a0abb51c9803490ec2161') in 0.019003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Yellow_Unlit.mat
+  artifactKey: Guid(a0053e9b22b22a947b5c0b13d86934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Yellow_Unlit.mat using Guid(a0053e9b22b22a947b5c0b13d86934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb669c209f913379171d427476ca178') in 0.013020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/RCK 2.3/Standard Assets/Terrain Assets/Trees Ambient-Occlusion/Palm/Materials/palmbranch.mat
+  artifactKey: Guid(3186f38ca67e7441e8299da2e169f9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Standard Assets/Terrain Assets/Trees Ambient-Occlusion/Palm/Materials/palmbranch.mat using Guid(3186f38ca67e7441e8299da2e169f9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04d5c13a92f11a1c4b8c04dfefa991a') in 0.010880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Blue_Unlit.mat
+  artifactKey: Guid(a07001461da8b324ebe7f74daf962498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Blue_Unlit.mat using Guid(a07001461da8b324ebe7f74daf962498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d82ec1ee1e6fafe5b0f308ee5548cbe') in 0.014739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/RCK 2.3/GUIs/Other/Materials/smoke.mat
+  artifactKey: Guid(ef9b1ed2aa2c53b4b82a019a277bf43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/GUIs/Other/Materials/smoke.mat using Guid(ef9b1ed2aa2c53b4b82a019a277bf43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2d0d00c6776ccac914fd6061cf40cc') in 0.011553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/RCK 2.3/Models/Vahicles/PoliceCar/Materials/wheel.mat
+  artifactKey: Guid(a1b8e0ef509af194ab175114823d5ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Vahicles/PoliceCar/Materials/wheel.mat using Guid(a1b8e0ef509af194ab175114823d5ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba3f60e7de67fd5100b3343751eb002') in 0.010223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/stripes.mat
+  artifactKey: Guid(e4784b48ac99cf140bc2d0eaebee4644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/ExampleAssets/Models/Materials/stripes.mat using Guid(e4784b48ac99cf140bc2d0eaebee4644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf25d90f6587f14370e11b67077ce9d') in 0.019783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Azerilo/Car Model No.1201 Asset/Mesh/Materials/Tex_0058_0.mat
+  artifactKey: Guid(feb709d059d9c35459f2b5646d024310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/Car Model No.1201 Asset/Mesh/Materials/Tex_0058_0.mat using Guid(feb709d059d9c35459f2b5646d024310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b110a8db73f88a31f99a1ff69a312799') in 0.010111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/RCK 2.3/Models/Vahicles/PoliceCar/Materials/body.mat
+  artifactKey: Guid(b84951d0909a0434da066fa734c2dbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Models/Vahicles/PoliceCar/Materials/body.mat using Guid(b84951d0909a0434da066fa734c2dbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc88a7ccb0fcd6dbf5c0fdaea6d9a23') in 0.013133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Azerilo/Car Model No.1201 Asset/Mesh/Materials/phong2.mat
+  artifactKey: Guid(cf131dceb9cccb84298de5dfc8f16161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/Car Model No.1201 Asset/Mesh/Materials/phong2.mat using Guid(cf131dceb9cccb84298de5dfc8f16161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e2e805f0b22430e789d76e918105f1') in 0.010011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Azerilo/Car Model No.1201 Asset/Mesh/Materials/lambert19.mat
+  artifactKey: Guid(4000a5228a1788c4285f9f7c9137b3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/Car Model No.1201 Asset/Mesh/Materials/lambert19.mat using Guid(4000a5228a1788c4285f9f7c9137b3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b757e49741e28182ca3249e0bc008117') in 0.011168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Red.mat
+  artifactKey: Guid(7f915564e02d7624aaa88d7674e83075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Red.mat using Guid(7f915564e02d7624aaa88d7674e83075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee3f479eed0b13eea33b27e27c9f9f6') in 0.010146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/RCK 2.3/GUIs/Other/Materials/nitro.mat
+  artifactKey: Guid(19bb6f056a3b4a44bac21c7a4339c467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/GUIs/Other/Materials/nitro.mat using Guid(19bb6f056a3b4a44bac21c7a4339c467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fe21e468b5f64e92891a186d351003') in 0.032141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 102.846517 seconds.
+  path: Assets/Good Tree.prefab
+  artifactKey: Guid(8135c01c51bec604ba8c9cfce9490880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Good Tree.prefab using Guid(8135c01c51bec604ba8c9cfce9490880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bbf2bcf7cacb1bcc6c3305e02fb55f') in 0.009594 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
